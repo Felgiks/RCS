@@ -1,0 +1,26 @@
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\bin\Debug\netcoreapp3.1\Day2_variable.exe
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\bin\Debug\netcoreapp3.1\Day2_variable.deps.json
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\bin\Debug\netcoreapp3.1\Day2_variable.runtimeconfig.json
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\bin\Debug\netcoreapp3.1\Day2_variable.runtimeconfig.dev.json
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\bin\Debug\netcoreapp3.1\Day2_variable.dll
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\bin\Debug\netcoreapp3.1\Day2_variable.pdb
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.csprojAssemblyReference.cache
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.AssemblyInfoInputs.cache
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.AssemblyInfo.cs
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.dll
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.pdb
+C:\Users\Arturs Feldmanis\source\repos\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.genruntimeconfig.cache
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\bin\Debug\netcoreapp3.1\Day2_variable.exe
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\bin\Debug\netcoreapp3.1\Day2_variable.deps.json
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\bin\Debug\netcoreapp3.1\Day2_variable.runtimeconfig.json
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\bin\Debug\netcoreapp3.1\Day2_variable.runtimeconfig.dev.json
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\bin\Debug\netcoreapp3.1\Day2_variable.dll
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\bin\Debug\netcoreapp3.1\Day2_variable.pdb
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.csprojAssemblyReference.cache
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.AssemblyInfoInputs.cache
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.AssemblyInfo.cs
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.csproj.CoreCompileInputs.cache
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.dll
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.pdb
+C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day2_variable\Day2_variable\obj\Debug\netcoreapp3.1\Day2_variable.genruntimeconfig.cache

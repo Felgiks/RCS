@@ -1,0 +1,5 @@
+Arturs feldmanis 4,upsiiii,3
+janis,karlis,3
+ieva,ieva,1
+nauris,nauris,3
+ilze,ilze,2
