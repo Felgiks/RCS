@@ -1,1 +1,5 @@
-System.Windows.Forms.ListView, Items.Count: 0
+Andris
+Juris
+Janis
+Maija
+Karlis

@@ -8,3 +8,13 @@ C:\Users\Arturs Feldmanis\RCS\Day13_MoreGUI\Day13_MoreGUI\obj\Debug\Day13_MoreGU
 C:\Users\Arturs Feldmanis\RCS\Day13_MoreGUI\Day13_MoreGUI\obj\Debug\Day13_MoreGUI.csproj.CoreCompileInputs.cache
 C:\Users\Arturs Feldmanis\RCS\Day13_MoreGUI\Day13_MoreGUI\obj\Debug\Day13_MoreGUI.exe
 C:\Users\Arturs Feldmanis\RCS\Day13_MoreGUI\Day13_MoreGUI\obj\Debug\Day13_MoreGUI.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day13_MoreGUI\Day13_MoreGUI\bin\Debug\Day13_MoreGUI.exe.config
+C:\Users\Arturs\Documents\GitHub\RCS\Day13_MoreGUI\Day13_MoreGUI\bin\Debug\Day13_MoreGUI.exe
+C:\Users\Arturs\Documents\GitHub\RCS\Day13_MoreGUI\Day13_MoreGUI\bin\Debug\Day13_MoreGUI.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day13_MoreGUI\Day13_MoreGUI\obj\Debug\Day13_MoreGUI.csprojAssemblyReference.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day13_MoreGUI\Day13_MoreGUI\obj\Debug\Day13_MoreGUI.Form1.resources
+C:\Users\Arturs\Documents\GitHub\RCS\Day13_MoreGUI\Day13_MoreGUI\obj\Debug\Day13_MoreGUI.Properties.Resources.resources
+C:\Users\Arturs\Documents\GitHub\RCS\Day13_MoreGUI\Day13_MoreGUI\obj\Debug\Day13_MoreGUI.csproj.GenerateResource.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day13_MoreGUI\Day13_MoreGUI\obj\Debug\Day13_MoreGUI.csproj.CoreCompileInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day13_MoreGUI\Day13_MoreGUI\obj\Debug\Day13_MoreGUI.exe
+C:\Users\Arturs\Documents\GitHub\RCS\Day13_MoreGUI\Day13_MoreGUI\obj\Debug\Day13_MoreGUI.pdb
