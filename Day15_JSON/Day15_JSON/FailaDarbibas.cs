@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
+using System.Runtime.Serialization.Json;
+using Newtonsoft.Json;
 
 namespace Day15_JSON
 {
@@ -10,7 +12,7 @@ namespace Day15_JSON
         public static List<Auto> LasitFailu(String filename)
         {
             String line;
-            List<Auto> stringLst = new List<Auto>();
+            List<Auto> StringList = new List<Auto>();
             try
             {
                 StreamReader sr = new StreamReader(filename);
@@ -18,13 +20,9 @@ namespace Day15_JSON
 
                 while (line != null)
                 {
-                    String[] fromFile = line.Split(",");
-                    stringLst.Add(new Auto(fromFile[0], fromFile[1], fromFile[2], Convert.ToInt32(fromFile[3]), 
-                        Convert.ToInt32(fromFile[4]), Convert.ToInt32(fromFile[5]), Convert.ToBoolean(fromFile[6])));
-
-
                     line = sr.ReadLine();
                 }
+                StringList = JsonConvert.DeserializeObject<List<Auto>>(line);
                 sr.Close();
             }
             catch
@@ -32,16 +30,15 @@ namespace Day15_JSON
                 Console.WriteLine("Neizdevas atvert failu!");
                 Environment.Exit(0);
             }
-            return stringLst;
+            return StringList;
         }
-        public static void RakstitFailu(String Saraksts, String filename)
+        public static void RakstitFailu(String stringLst, String filename)
         {
             try
             {
-                StreamWriter Saraksts = new StreamWriter(filename);
-                Console.WriteLine(Saraksts);
-                
-                Saraksts.Close();
+                StreamWriter Rakstitaajs = new StreamWriter(filename);
+                Rakstitaajs.WriteLine(stringLst);
+                Rakstitaajs.Close();
             }
             catch
             {

@@ -8,7 +8,7 @@ namespace Day15_JSON
 {
     class Program
     {
-        public String FailaNosaukums = "";
+        public String FailaNosaukums = "Auto.JSON";
         static void Main(string[] args)
         {
             // KlasesUZD();
@@ -45,7 +45,7 @@ namespace Day15_JSON
 
         }
 
-        private static void JsonFileUpdate(List<Auto> SalonaAutoData)
+        public static void JsonFileUpdate(List<Auto> SalonaAutoData)
         {
             List<Auto> Nepardotie = new List<Auto>();
             List<Auto> Pardotie = new List<Auto>();
@@ -64,7 +64,12 @@ namespace Day15_JSON
             }
             String JsonNepardotie = JsonConvert.SerializeObject(Nepardotie);
             String JsonPardotie = JsonConvert.SerializeObject(Pardotie);
-            FailaDarbibas.RakstitFailu(JsonNepardotie, filename: "FailaNosaukums");
+            FailaDarbibas.RakstitFailu(JsonNepardotie, "AutoNepardotie.json");
+            FailaDarbibas.RakstitFailu(JsonPardotie, "AutoPardotie.json");
+            FailaDarbibas.LasitFailu(JsonPardotie);
+            Console.WriteLine(JsonPardotie);
+            FailaDarbibas.LasitFailu(JsonNepardotie);
+            Console.WriteLine(JsonPardotie);
         }
 
         static void Izvelne(List<Auto> SalonaAutoData)
