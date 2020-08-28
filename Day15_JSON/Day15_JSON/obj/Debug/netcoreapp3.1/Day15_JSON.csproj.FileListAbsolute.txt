@@ -1,0 +1,15 @@
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\bin\Debug\netcoreapp3.1\Day15_JSON.exe
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\obj\Debug\netcoreapp3.1\Day15_JSON.csprojAssemblyReference.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\obj\Debug\netcoreapp3.1\Day15_JSON.AssemblyInfoInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\obj\Debug\netcoreapp3.1\Day15_JSON.AssemblyInfo.cs
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\obj\Debug\netcoreapp3.1\Day15_JSON.csproj.CoreCompileInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\bin\Debug\netcoreapp3.1\Day15_JSON.deps.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\bin\Debug\netcoreapp3.1\Day15_JSON.runtimeconfig.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\bin\Debug\netcoreapp3.1\Day15_JSON.runtimeconfig.dev.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\bin\Debug\netcoreapp3.1\Day15_JSON.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\bin\Debug\netcoreapp3.1\Day15_JSON.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\obj\Debug\netcoreapp3.1\Day15_JSON.csproj.CopyComplete
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\obj\Debug\netcoreapp3.1\Day15_JSON.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\obj\Debug\netcoreapp3.1\Day15_JSON.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day15_JSON\Day15_JSON\obj\Debug\netcoreapp3.1\Day15_JSON.genruntimeconfig.cache

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 
-namespace Day11_StudentIO
+namespace Day15_JSON
 {
     class FailaDarbibas
     {
-        public static List<Student> LasitFailu(String filename)
+        public static List<Auto> LasitFailu(String filename)
         {
             String line;
-            List<Student> stringLst = new List<Student>();
+            List<Auto> stringLst = new List<Auto>();
             try
             {
                 StreamReader sr = new StreamReader(filename);
@@ -19,7 +19,9 @@ namespace Day11_StudentIO
                 while (line != null)
                 {
                     String[] fromFile = line.Split(",");
-                    stringLst.Add(new Student(fromFile[0], fromFile[1], Convert.ToInt32(fromFile[2])));
+                    stringLst.Add(new Auto(fromFile[0], fromFile[1], fromFile[2], Convert.ToInt32(fromFile[3]), 
+                        Convert.ToInt32(fromFile[4]), Convert.ToInt32(fromFile[5]), Convert.ToBoolean(fromFile[6])));
+
 
                     line = sr.ReadLine();
                 }
