@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Windows.Forms;
 
 namespace Day13_MoreGUI
 {
     class FailaDarbibas
     {
-            public static List<String> ReadStringLst(String filename)
+            public static List<String> ReadList(String filename)
             {
                 String line;
                 List<String> stringLst = new List<String>();
@@ -37,15 +38,15 @@ namespace Day13_MoreGUI
                 return stringLst;
             }
 
-            public static void WriteStringLst(List<String> stringLst, String filename)
+            public static void WriteList(ListView ElementList, String filename)
             {
                 try
                 {
                     StreamWriter sw = new StreamWriter(filename);
 
-                    foreach (String n in stringLst)
+                    foreach (ListViewItem n in ElementList.Items)
                     {
-                        sw.WriteLine(n);
+                        sw.WriteLine(n.Text);
                     }
 
 
