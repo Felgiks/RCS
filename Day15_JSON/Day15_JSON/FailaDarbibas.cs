@@ -34,16 +34,14 @@ namespace Day15_JSON
             }
             return stringLst;
         }
-        public static void RakstitFailu(List<String> stringLst, String filename)
+        public static void RakstitFailu(String Saraksts, String filename)
         {
             try
             {
-                StreamWriter sw = new StreamWriter(filename);
-                foreach (String n in stringLst)
-                {
-                    sw.WriteLine(n);
-                }
-                sw.Close();
+                StreamWriter Saraksts = new StreamWriter(filename);
+                Console.WriteLine(Saraksts);
+                
+                Saraksts.Close();
             }
             catch
             {

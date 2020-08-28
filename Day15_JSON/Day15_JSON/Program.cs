@@ -8,9 +8,16 @@ namespace Day15_JSON
 {
     class Program
     {
+        public String FailaNosaukums = "";
         static void Main(string[] args)
         {
-           // KlasesUZD();
+            // KlasesUZD();
+            AUtooooo();
+            
+        }
+
+        private static void AUtooooo()
+        {
             List<Auto> SalonaAuto = new List<Auto>();
             SalonaAuto.Add(new Auto("Audi", "A6", "green", 2020, 236, 40000, false));
             SalonaAuto.Add(new Auto("Audi", "A3", "red", 2016, 136, 25000, false));
@@ -21,13 +28,70 @@ namespace Day15_JSON
             SalonaAuto.Add(new Auto("Audi", "Q5", "violet", 2010, 276, 19000, false));
             SalonaAuto.Add(new Auto("Audi", "A6", "blue", 2011, 136, 12000, false));
 
+            do
+            {
+                Izvelne(SalonaAuto);
+                JsonFileUpdate(SalonaAuto);
+            } while (true);
+            
+
+            // nakosa sadala
+
+            // String JsonNepardotie = JsonConvert.SerializeObject(Nepardotie);
+            // String JsonPardotie = JsonConvert.SerializeObject(Pardotie);
+
+            //  FailaDarbibas.RakstitFailu(Nepardotie, "AutoSalons.txt");
+            //  FailaDarbibas.RakstitFailu(Pardotie, FailaNosaukums);
+
+        }
+
+        private static void JsonFileUpdate(List<Auto> SalonaAutoData)
+        {
+            List<Auto> Nepardotie = new List<Auto>();
+            List<Auto> Pardotie = new List<Auto>();
+
+
+            for (int i = 0; i < SalonaAutoData.Count; i++)
+            {
+                if (SalonaAutoData[i].IsSold == false)
+                {
+                    Nepardotie.Add(SalonaAutoData[i]);
+                }
+                else
+                {
+                    Pardotie.Add(SalonaAutoData[i]);
+                }
+            }
+            String JsonNepardotie = JsonConvert.SerializeObject(Nepardotie);
+            String JsonPardotie = JsonConvert.SerializeObject(Pardotie);
+            FailaDarbibas.RakstitFailu(JsonNepardotie, filename: "FailaNosaukums");
+        }
+
+        static void Izvelne(List<Auto> SalonaAutoData)
+        {
+            List<Auto> Nepardotie = new List<Auto>();
+            List<Auto> Pardotie = new List<Auto>();
+            
+
+            for (int i = 0; i < SalonaAutoData.Count; i++)
+            {
+                if (SalonaAutoData[i].IsSold == false)
+                {
+                    Nepardotie.Add(SalonaAutoData[i]);
+                }
+                else
+                {
+                    Pardotie.Add(SalonaAutoData[i]);
+                }
+            }
+
             string choise = "";
 
             Console.WriteLine("Jusu Auto Salons");
 
             while (choise != "0")
             {
-                
+
                 Console.WriteLine("Sveiki");
                 Console.WriteLine("1 - Apskatit salona auto sarakstu");
                 Console.WriteLine("2 - Pardot Auto");
@@ -44,39 +108,30 @@ namespace Day15_JSON
                     case "1":
                         {
                             Console.WriteLine("Salona uz vietas atrodas - ");
-                            foreach (var Car in SalonaAuto)
+                            for (int i = 0; i < Nepardotie.Count; i++)
                             {
-                                if (Car.IsSold == false)
-                                {
-                                    Car.PrintInfo();
-                                }
+                                    Nepardotie[i].PrintInfo();
                             }
-
                             break;
                         }
                     case "2":
                         {
                             Console.WriteLine("Kuru auto jus pardosiet?");
-                            for (int i = 0; i < SalonaAuto.Count; i++)
+                            for (int i = 0; i < Nepardotie.Count; i++)
                             {
-                                if (SalonaAuto[i].IsSold == false)
-                                {
-                                    SalonaAuto[i].PrintInfo();
-                                }
+                                Console.Write("[" + i + "]");
+                                Nepardotie[i].PrintInfo();
                             }
-                            int Izvele = Convert.ToInt32(Console.ReadLine() + 1);
-                            SalonaAuto[Izvele].IsSold = true;
+                            int Izvele = Convert.ToInt32(Console.ReadLine()) - 1;
+                            Nepardotie[Izvele].IsSold = true;
                             break;
                         }
                     case "3":
                         {
                             Console.WriteLine("Jus esat pardevusi sos auto - ");
-                            foreach (var Car in SalonaAuto)
+                            for (int i = 0; i < Pardotie.Count; i++)
                             {
-                                if (Car.IsSold == true)
-                                {
-                                    Car.PrintInfo();
-                                }
+                                Pardotie[i].PrintInfo();
                             }
                             break;
                         }
@@ -86,27 +141,10 @@ namespace Day15_JSON
                             Console.WriteLine("Nesapratu jus -_-");
                             break;
                         }
-                }
+                } return;
             }
-            // nakosa sadala
-            List<Auto> Nepardotie = new List<Auto>();
-            List<Auto> Pardotie = new List<Auto>();
-
-            for (int i = 0; i < SalonaAuto.Count; i++)
-            {
-                if (SalonaAuto[i].IsSold == false)
-                {
-                    Nepardotie.Add(SalonaAuto[i]);
-                }
-                else
-                {
-                    Pardotie.Add(SalonaAuto[i]);
-                }
-            }
-            String JsonString = JsonConvert.SerializeObject(Nepardotie);
-            String JsonString2 = JsonConvert.SerializeObject(Pardotie);
-
         }
+
         static void KlasesUZD()
         {
             List<Student> Saraksts = new List<Student>();
