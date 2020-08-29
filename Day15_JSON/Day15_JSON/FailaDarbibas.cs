@@ -20,14 +20,23 @@ namespace Day15_JSON
 
                 while (line != null)
                 {
-                    line = sr.ReadLine();
+                    // neaizmirsti validet input / nolasito pirms izmanto talak
+                    String temp = sr.ReadLine();
+                    if (temp != null && !temp.Equals(""))
+                    {
+                        line = temp;
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
                 StringList = JsonConvert.DeserializeObject<List<Auto>>(line);
                 sr.Close();
             }
             catch
             {
-                Console.WriteLine("Neizdevas atvert failu!");
+                Console.WriteLine("Neizdevas atvert failu:" + filename);
                 Environment.Exit(0);
             }
             return StringList;
@@ -40,7 +49,7 @@ namespace Day15_JSON
                 Rakstitaajs.WriteLine(stringLst);
                 Rakstitaajs.Close();
             }
-            catch
+            catch (Exception ex)
             {
                 Console.WriteLine("Neizdevas ierakstit faila!");
             }

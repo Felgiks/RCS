@@ -8,7 +8,10 @@ namespace Day15_JSON
 {
     class Program
     {
-        public String FailaNosaukums = "Auto.JSON";
+        public static String FailaNosaukums = "Auto.JSON";
+        public static String filenameNepardotie = "AutoNepardotie.JSON";
+        public static String filenamePardotie = "AutoPardotie.JSON";
+
         static void Main(string[] args)
         {
             // KlasesUZD();
@@ -64,9 +67,9 @@ namespace Day15_JSON
             }
             String JsonNepardotie = JsonConvert.SerializeObject(Nepardotie);
             String JsonPardotie = JsonConvert.SerializeObject(Pardotie);
-            FailaDarbibas.RakstitFailu(JsonNepardotie, "AutoNepardotie.json");
-            FailaDarbibas.RakstitFailu(JsonPardotie, "AutoPardotie.json");
-            FailaDarbibas.LasitFailu(JsonPardotie);
+            FailaDarbibas.RakstitFailu(JsonNepardotie, filenameNepardotie);
+            FailaDarbibas.RakstitFailu(JsonPardotie, filenamePardotie);
+            FailaDarbibas.LasitFailu(filenamePardotie);
             Console.WriteLine(JsonPardotie);
             FailaDarbibas.LasitFailu(JsonNepardotie);
             Console.WriteLine(JsonPardotie);
