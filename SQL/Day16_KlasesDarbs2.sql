@@ -79,3 +79,34 @@ where darbiniekaID = 1;
 select darbinieki.darbiniekaVards , darbinieki.darbiniekaUzvards, jobs.jobName 
 from darbinieki, jobs
 where darbinieki.jobID = jobs.jobID;
+
+#------------------------
+
+create table Team
+(teamID int primary key auto_increment,
+teamName varchar(10) not null);
+
+insert into Team (teamName)
+values ("Alpha"),
+("Beta");
+
+alter table darbinieki
+add column teamID int;
+
+alter table darbinieki
+add constraint fk_team_id
+foreign key (teamID) references Team(teamID);
+
+update darbinieki
+set teamID = 1
+where darbiniekaID < 2;
+
+update darbinieki
+set teamID = 2
+where darbiniekaID = 3;
+
+select * from darbinieki;
+
+select darbinieki.darbiniekaVards, darbinieki.darbiniekaUzvards, team.teamName
+from darbinieki, team
+where Team.teamID = darbinieki.teamID;
