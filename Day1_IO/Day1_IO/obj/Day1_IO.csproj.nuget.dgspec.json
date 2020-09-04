@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arturs Feldmanis\\Desktop\\Riga Coding School\\Day1_IO\\Day1_IO\\Day1_IO.csproj": {}
+    "C:\\Users\\Arturs\\Documents\\GitHub\\RCS\\Day1_IO\\Day1_IO\\Day1_IO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arturs Feldmanis\\Desktop\\Riga Coding School\\Day1_IO\\Day1_IO\\Day1_IO.csproj": {
+    "C:\\Users\\Arturs\\Documents\\GitHub\\RCS\\Day1_IO\\Day1_IO\\Day1_IO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arturs Feldmanis\\Desktop\\Riga Coding School\\Day1_IO\\Day1_IO\\Day1_IO.csproj",
+        "projectUniqueName": "C:\\Users\\Arturs\\Documents\\GitHub\\RCS\\Day1_IO\\Day1_IO\\Day1_IO.csproj",
         "projectName": "Day1_IO",
-        "projectPath": "C:\\Users\\Arturs Feldmanis\\Desktop\\Riga Coding School\\Day1_IO\\Day1_IO\\Day1_IO.csproj",
-        "packagesPath": "C:\\Users\\Arturs Feldmanis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arturs Feldmanis\\Desktop\\Riga Coding School\\Day1_IO\\Day1_IO\\obj\\",
+        "projectPath": "C:\\Users\\Arturs\\Documents\\GitHub\\RCS\\Day1_IO\\Day1_IO\\Day1_IO.csproj",
+        "packagesPath": "C:\\Users\\Arturs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arturs\\Documents\\GitHub\\RCS\\Day1_IO\\Day1_IO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Arturs Feldmanis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arturs\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

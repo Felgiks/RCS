@@ -11,3 +11,16 @@ C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day1_IO\Day1_IO\obj\Debug\n
 C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day1_IO\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.dll
 C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day1_IO\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.pdb
 C:\Users\Arturs Feldmanis\Desktop\Riga Coding School\Day1_IO\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.genruntimeconfig.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.csprojAssemblyReference.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.AssemblyInfoInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.AssemblyInfo.cs
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.csproj.CoreCompileInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\bin\Debug\netcoreapp3.1\Day1_IO.exe
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\bin\Debug\netcoreapp3.1\Day1_IO.deps.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\bin\Debug\netcoreapp3.1\Day1_IO.runtimeconfig.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\bin\Debug\netcoreapp3.1\Day1_IO.runtimeconfig.dev.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\bin\Debug\netcoreapp3.1\Day1_IO.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\bin\Debug\netcoreapp3.1\Day1_IO.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day1_IO\Day1_IO\obj\Debug\netcoreapp3.1\Day1_IO.genruntimeconfig.cache
