@@ -46,7 +46,6 @@ CREATE TABLE animal(
     foreign key (employeeID) references employees(employeeID),
     foreign key (clientID) references clients(clientID)
 );
-drop table animal;
 insert into animal (animalName, typeID)
 VALUES
 ("Reksis", 1),
@@ -73,6 +72,8 @@ where animalID = 4;
 
 select * from animal;
 
+select animalName from animal;
+
 SELECT animal.animalName, animaltype.typeName, animaltype.typeDescription, 
 concat(clients.firstName, " ", clients.lastName) AS "Saimnieks", #savienot divus laukus vienā
 employees.firstName AS "Pardevejs"
@@ -82,4 +83,8 @@ on animal.typeID = animaltype.typeID
 inner join clients
 on clients.clientID = animal.clientID
 inner join employees
-on employees.employeeID = animal.employeeID
+on employees.employeeID = animal.employeeID;
+
+SELECT animal.animalName, animaltype.typeName, animaltype.typeDescription 
+from animal, animaltype
+where animal.typeID = animaltype.typeID AND animal.clientID is null;

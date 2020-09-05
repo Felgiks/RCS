@@ -1,78 +1,78 @@
-﻿using MySql.Data.MySqlClient;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using MySql.Data.MySqlClient;
 
 namespace Day19_moreSQL
 {
-    class Connection
+    class Savienojums
     {
-        private MySqlConnection connection;
+        private MySqlConnection savienojums;
         private string server;
         private string database;
         private string uid;
         private string password;
 
-        public Connection()
+        public Savienojums()
         {
             Init();
         }
         private void Init()
         {
             server = "localhost";
-            database = "ofiss";
+            database = "majdzivniekuvaikals";
             uid = "root";
             password = "addicted";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
 
-            connection = new MySqlConnection(connectionString);
+            savienojums = new MySqlConnection(connectionString);
         }
-        public void Select()
+        public void Selekteesana()
         {
-            List<Jobs> jobLst = new List<Jobs>();
+            List<Animals> AnimalList = new List<Animals>();
 
-            String query = "SELECT jobName, jobDescription FROM jobs";
+            String query = "SELECT animalName, animaltype.typeName FROM animal, animaltype";
 
-            if(this.Open() == true)
+            if (this.Open() == true)
             {
-                Console.WriteLine("Selecting in progress");
-                MySqlCommand cmd = new MySqlCommand(query, connection);
+                Console.WriteLine("Savienojas...");
+                MySqlCommand cmd = new MySqlCommand(query, savienojums);
 
                 MySqlDataReader reader = cmd.ExecuteReader();
 
                 while (reader.Read())
                 {
-                    jobLst.Add(new Jobs(reader["jobName"].ToString(), reader["jobDescription"].ToString()));
+                    AnimalList.Add(new Animals(reader["animalName"].ToString(), reader["typeName"].ToString()));
                 }
                 reader.Close();
 
                 this.Close();
 
-                foreach (Jobs jobs in jobLst)
+                foreach (Animals animal in AnimalList)
                 {
-                    Console.WriteLine(jobs.jobName + " " + jobs.jobDescr);
+                    Console.WriteLine(animal.animalName  + " " + animal.animalType);
                 }
             }
             else
             {
-                Console.WriteLine("Savienojums neizdevas");
+                Console.WriteLine("Savienojums neizdevas no Select");
             }
         }
-        public void Insert()
+        public void Ievietosana()
         {
-            String query = "INSERT INTO jobs (jobName, jobDescription) VALUES ('Elektronikis', 'Elektribas durvis')";
-            if(this.Open() == true)
+            String query = "INSERT INTO animal (animalName, typeID) VALUES ('Flufijs', 2)";
+            if (this.Open() == true)
             {
-                MySqlCommand cmd = new MySqlCommand(query, connection);
+                MySqlCommand cmd = new MySqlCommand(query, savienojums);
                 cmd.ExecuteNonQuery();
 
-                this.Close();
+                this.Ievietosana();
             }
             else
             {
-                Console.WriteLine("Neizdevas savienoties");
+                Console.WriteLine("Neizdevas savienoties ievietosanai");
             }
         }
         public bool Open()
@@ -80,10 +80,11 @@ namespace Day19_moreSQL
             try
             {
                 Console.WriteLine("Tring to connect...");
-                connection.Open();
+                savienojums.Open();
             }
             catch
             {
+                Console.WriteLine("No connect from Open bool");
                 return false;
             }
             return true;
@@ -92,7 +93,7 @@ namespace Day19_moreSQL
         {
             try
             {
-                connection.Close();
+                savienojums.Close();
             }
             catch
             {
