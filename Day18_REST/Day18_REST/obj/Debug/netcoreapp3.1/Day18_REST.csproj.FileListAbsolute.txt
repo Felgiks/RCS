@@ -1,0 +1,15 @@
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\bin\Debug\netcoreapp3.1\Day18_REST.exe
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\obj\Debug\netcoreapp3.1\Day18_REST.csprojAssemblyReference.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\obj\Debug\netcoreapp3.1\Day18_REST.AssemblyInfoInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\obj\Debug\netcoreapp3.1\Day18_REST.AssemblyInfo.cs
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\bin\Debug\netcoreapp3.1\Day18_REST.deps.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\bin\Debug\netcoreapp3.1\Day18_REST.runtimeconfig.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\bin\Debug\netcoreapp3.1\Day18_REST.runtimeconfig.dev.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\bin\Debug\netcoreapp3.1\Day18_REST.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\bin\Debug\netcoreapp3.1\Day18_REST.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\obj\Debug\netcoreapp3.1\Day18_REST.csproj.CoreCompileInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\obj\Debug\netcoreapp3.1\Day18_REST.csproj.CopyComplete
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\obj\Debug\netcoreapp3.1\Day18_REST.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\obj\Debug\netcoreapp3.1\Day18_REST.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day18_REST\Day18_REST\obj\Debug\netcoreapp3.1\Day18_REST.genruntimeconfig.cache
