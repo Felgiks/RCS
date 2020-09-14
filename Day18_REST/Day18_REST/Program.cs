@@ -8,8 +8,10 @@ namespace Day18_REST
     {
         static void Main(string[] args)
         {
-           // String url = "http://dummy.restapiexample.com/api/v1/employees";
-            String url = "http://pi.openweathermap.org/data/2.5/weather?q={cityname}&appid={yourapikey}";
+            String cityname = "Riga";
+
+            String url = "http://dummy.restapiexample.com/api/v1/employees";
+           // String url = "http://pi.openweathermap.org/data/2.5/weather?q={cityname}&appid={yourapikey}";
 
             WebClient client = new WebClient();
 

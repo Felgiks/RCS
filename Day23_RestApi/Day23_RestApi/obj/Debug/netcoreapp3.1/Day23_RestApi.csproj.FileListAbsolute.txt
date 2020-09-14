@@ -2,3 +2,14 @@ C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\bin\Debug\netco
 C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\obj\Debug\netcoreapp3.1\Day23_RestApi.csprojAssemblyReference.cache
 C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\obj\Debug\netcoreapp3.1\Day23_RestApi.AssemblyInfoInputs.cache
 C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\obj\Debug\netcoreapp3.1\Day23_RestApi.AssemblyInfo.cs
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\bin\Debug\netcoreapp3.1\Day23_RestApi.deps.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\bin\Debug\netcoreapp3.1\Day23_RestApi.runtimeconfig.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\bin\Debug\netcoreapp3.1\Day23_RestApi.runtimeconfig.dev.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\bin\Debug\netcoreapp3.1\Day23_RestApi.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\bin\Debug\netcoreapp3.1\Day23_RestApi.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\obj\Debug\netcoreapp3.1\Day23_RestApi.csproj.CoreCompileInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\obj\Debug\netcoreapp3.1\Day23_RestApi.csproj.CopyComplete
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\obj\Debug\netcoreapp3.1\Day23_RestApi.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\obj\Debug\netcoreapp3.1\Day23_RestApi.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\obj\Debug\netcoreapp3.1\Day23_RestApi.genruntimeconfig.cache
