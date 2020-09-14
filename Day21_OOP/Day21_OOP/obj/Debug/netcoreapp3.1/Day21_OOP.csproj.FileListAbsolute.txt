@@ -1,0 +1,13 @@
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\bin\Debug\netcoreapp3.1\Day21_OOP.exe
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\bin\Debug\netcoreapp3.1\Day21_OOP.deps.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\bin\Debug\netcoreapp3.1\Day21_OOP.runtimeconfig.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\bin\Debug\netcoreapp3.1\Day21_OOP.runtimeconfig.dev.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\bin\Debug\netcoreapp3.1\Day21_OOP.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\bin\Debug\netcoreapp3.1\Day21_OOP.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\obj\Debug\netcoreapp3.1\Day21_OOP.csprojAssemblyReference.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\obj\Debug\netcoreapp3.1\Day21_OOP.AssemblyInfoInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\obj\Debug\netcoreapp3.1\Day21_OOP.AssemblyInfo.cs
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\obj\Debug\netcoreapp3.1\Day21_OOP.csproj.CoreCompileInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\obj\Debug\netcoreapp3.1\Day21_OOP.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\obj\Debug\netcoreapp3.1\Day21_OOP.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day21_OOP\Day21_OOP\obj\Debug\netcoreapp3.1\Day21_OOP.genruntimeconfig.cache
