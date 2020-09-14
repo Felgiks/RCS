@@ -8,10 +8,13 @@ namespace Day18_REST
     {
         static void Main(string[] args)
         {
-            String url = "http://dummy.restapiexample.com/api/v1/employees";
+           // String url = "http://dummy.restapiexample.com/api/v1/employees";
+            String url = "http://pi.openweathermap.org/data/2.5/weather?q={cityname}&appid={yourapikey}";
 
             WebClient client = new WebClient();
 
+            // client.Headers.Add("Autentification-Token", "12h-1234afa-1245sgrgz-KEY");
+           
             String response = client.DownloadString(url);
 
             //Console.WriteLine(response);
