@@ -1,0 +1,4 @@
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\bin\Debug\netcoreapp3.1\Day23_RestApi.exe
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\obj\Debug\netcoreapp3.1\Day23_RestApi.csprojAssemblyReference.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\obj\Debug\netcoreapp3.1\Day23_RestApi.AssemblyInfoInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_RestApi\Day23_RestApi\obj\Debug\netcoreapp3.1\Day23_RestApi.AssemblyInfo.cs
