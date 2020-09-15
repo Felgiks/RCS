@@ -14,8 +14,13 @@ namespace WindowsFormsApp1
 {
     public partial class MusicPlayerApp : Form
     {
-        String[] paths, files;
-       
+        String[] paths;
+        String[] files;
+        int Reizes;
+        int Minejums;
+        int PareizaisNumurs;
+        bool Virziens = true;
+
         public MusicPlayerApp()
         {
             InitializeComponent();
@@ -23,7 +28,7 @@ namespace WindowsFormsApp1
 
         private void labelLOGO_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Brīva vieta jūsu majaslapai - felgiks.com");
+            Console.WriteLine("Brīva vieta jūsu reklamai - www.felgiks.com");
         }
 
         private void btnSelectSongs_Click(object sender, EventArgs e)
@@ -37,7 +42,7 @@ namespace WindowsFormsApp1
                 paths = ofd.FileNames;
                 if (ListBoxSongs.Items.Count > 0)
                 {
-                    for (int i = ListBoxSongs.Items.Count; i < files.Length; i++)
+                    for (int i = ListBoxSongs.Items.Count + 1; i < files.Length; i++)
                     {
                         ListBoxSongs.Items.Add(files[i]);
                     }
@@ -49,7 +54,7 @@ namespace WindowsFormsApp1
                         ListBoxSongs.Items.Add(files[i]);
                     }
                 }
-                
+
             }
         }
 
@@ -61,6 +66,81 @@ namespace WindowsFormsApp1
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+        private void textBox1_TextChanged(object sender, EventArgs e) { }
+        private void label2_Click(object sender, EventArgs e) { }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Reizes++;
+            Daritaajs(Reizes);
+        }
+
+        private void Daritaajs(int reizes)
+        {
+            if (reizes == 1)
+            {
+                textBox1.BackColor = Color.White;
+                label2.BackColor = Color.White;
+                Poga1.Text = "Yep,thats my name!";
+                label2.Text = "Ka tevi sauc?";
+            }
+            if (reizes == 2)
+            {
+                label2.Text = "Sveiki " + textBox1.Text + ", uzspelesim so speli...";
+                label3.BackColor = Color.White;
+                label3.Text = "Uzmini manu iedomato skaitli no 1 lidz 10!";
+                Poga1.Text = "Iesniegt!";
+                Random Randoms = new Random();
+                PareizaisNumurs = Randoms.Next(1, 10);
+            }
+            if (Reizes == 3)
+            {
+                Minetajs(textBox1.Text);
+            }
+            if (Reizes > 3)
+            {
+                Minetajs(textBox1.Text);
+            }
+            
+
+        }
+
+        private void Minetajs(string ievade)
+        {
+            if (!int.TryParse(ievade, out Minejums))
+            {
+                label3.Text = "Ludzu, ievadi skaitli, nevis ko citu!";
+            }
+            else if (Minejums != PareizaisNumurs)
+            {
+                Minejums = Int32.Parse(ievade);
+                if (Minejums != PareizaisNumurs)
+                {
+                    if(Virziens == true)
+                    {
+                        label3.Text = "Skaitlis nepareizs, megini velreiz!";
+                    }
+                    if(Virziens == false)
+                    {
+                        label3.Text = "Skaitlis tomer nepareizs, megini velreiz!";
+                    }
+                    Virziens = !Virziens;
+                    
+                }
+            }
+            else
+            {
+                label3.Text = "Tu uzmineji manu skaitli! Minesi velreiz? [Y or N]";
+            }
+            if (textBox1.Text.ToUpper() == "N")
+            {
+                Reizes = 0;
+                textBox1.BackColor = Color.Black;
+                label2.BackColor = Color.Black;
+                label3.BackColor = Color.Black;
+                Poga1.Text = "Do you want to play a game? ";
+            }
+
         }
     }
 }

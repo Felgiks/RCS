@@ -7,50 +7,55 @@ namespace NumberGuesser
     {
         static void Main(string[] args)
         {
-            GetAppInfo();
-            GreetUser();
+            AppInfo();
+            Sveiciens();
             while (true)
             {
                 Random Randoms = new Random();
-                int CorrectNumber = Randoms.Next(1, 10);
-                int guess = 0;
-                Console.WriteLine("Guess a number between 1 and 10");
+                int PareizaisNumurs = Randoms.Next(1, 10);
+                int MinejumuReizes = 1;
+                int Minejums = 0;
+                Console.WriteLine("Uzmini numuru no 1 lidz 10!");
 
-                while (guess != CorrectNumber)
+                while (Minejums != PareizaisNumurs)
                 {
-                    string input = Console.ReadLine();
-                    if (!int.TryParse(input, out guess))
+
+                    string ievade = Console.ReadLine();
+                    if (!int.TryParse(ievade, out Minejums))
                     {
-                        PrintColourMessage(ConsoleColor.Red, "Please use actual number!");
+                        KrasainaAtbilde(ConsoleColor.Red, "Ludzu, ievadi skaitli, nevis ko citu!");
+                        MinejumuReizes += 1;
                         continue;
                     }
-                    guess = Int32.Parse(input);
+                    Minejums = Int32.Parse(ievade);
 
-                    if (guess != CorrectNumber)
+                    if (Minejums != PareizaisNumurs)
                     {
-                        PrintColourMessage(ConsoleColor.Red, "Wrong number, please try again!");
+                        KrasainaAtbilde(ConsoleColor.Red, "Skaitlis nepareizs, megini velreiz!");
+                        MinejumuReizes += 1;
                     }
                 }
-                PrintColourMessage(ConsoleColor.Green, "You are correct!");
-                Console.WriteLine("Play again? [Y or N]");
-                string answer = Console.ReadLine().ToUpper();
-                if (answer == "N")
+                KrasainaAtbilde(ConsoleColor.Green, "Tu uzmineji manu skaitli ar " + MinejumuReizes + " reizi!");
+                Console.WriteLine("Minesi velreiz? [Y or N]");
+                string atbilde = Console.ReadLine().ToUpper();
+
+                if (atbilde == "N")
                 {
                     return;
                 }
             }
         }
 
-        static void GreetUser()
+        static void Sveiciens()
         {
-            Console.WriteLine("What is your name?");
-            String inputName = Console.ReadLine();
-            Console.WriteLine("Hello {0}, lets play a game...", inputName);
+            Console.WriteLine("Ka tevi sauc?");
+            String SpeletajaVards = Console.ReadLine();
+            Console.WriteLine("Sveiki {0}, uzspelesim so speli...", SpeletajaVards);
         }
 
-        static void GetAppInfo()
+        static void AppInfo()
         {
-            String appName = "NumberGuesser";
+            String appName = "Uzmini manu skaitli!";
             String appVersion = "1.0.0";
             String appAuthor = "Felgiks";
 
@@ -59,10 +64,10 @@ namespace NumberGuesser
             Console.ResetColor();
         }
         
-        static void PrintColourMessage(ConsoleColor colour, string message)
+        static void KrasainaAtbilde(ConsoleColor krasa, string teksts)
         {
-            Console.ForegroundColor = colour;
-            Console.WriteLine(message);
+            Console.ForegroundColor = krasa;
+            Console.WriteLine(teksts);
             Console.ResetColor();
         }
     }
