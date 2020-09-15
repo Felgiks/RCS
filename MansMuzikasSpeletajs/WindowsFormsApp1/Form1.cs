@@ -140,6 +140,10 @@ namespace WindowsFormsApp1
                 label3.BackColor = Color.Black;
                 Poga1.Text = "Do you want to play a game? ";
             }
+            if (textBox1.Text.ToUpper() == "Y")
+            {
+                Reizes = 2;
+            }
 
         }
     }
