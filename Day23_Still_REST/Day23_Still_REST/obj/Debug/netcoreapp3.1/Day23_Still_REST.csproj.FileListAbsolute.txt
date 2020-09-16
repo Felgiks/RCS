@@ -2,3 +2,14 @@ C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\bin\Debug
 C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\obj\Debug\netcoreapp3.1\Day23_Still_REST.csprojAssemblyReference.cache
 C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\obj\Debug\netcoreapp3.1\Day23_Still_REST.AssemblyInfoInputs.cache
 C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\obj\Debug\netcoreapp3.1\Day23_Still_REST.AssemblyInfo.cs
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\bin\Debug\netcoreapp3.1\Day23_Still_REST.deps.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\bin\Debug\netcoreapp3.1\Day23_Still_REST.runtimeconfig.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\bin\Debug\netcoreapp3.1\Day23_Still_REST.runtimeconfig.dev.json
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\bin\Debug\netcoreapp3.1\Day23_Still_REST.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\bin\Debug\netcoreapp3.1\Day23_Still_REST.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\obj\Debug\netcoreapp3.1\Day23_Still_REST.csproj.CoreCompileInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\obj\Debug\netcoreapp3.1\Day23_Still_REST.csproj.CopyComplete
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\obj\Debug\netcoreapp3.1\Day23_Still_REST.dll
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\obj\Debug\netcoreapp3.1\Day23_Still_REST.pdb
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\obj\Debug\netcoreapp3.1\Day23_Still_REST.genruntimeconfig.cache

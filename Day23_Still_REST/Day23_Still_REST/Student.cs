@@ -12,11 +12,11 @@ namespace Day23_Still_REST
         public String LastName { get; set; }
         public int Age { get; set; }
 
-        public Student(String Name, String LastName, int Age)
+        public Student(String name, String lastName, int age)
         {
-            this.name = Name;
-            this.lastName = lastName;
-            this.course = Age;
+            this.Name = name;
+            this.LastName = lastName;
+            this.Age = age;
         }
         public override String ToString()
         {
