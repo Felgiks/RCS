@@ -88,18 +88,37 @@ namespace WindowsFormsApp1
             {
                 label2.Text = "Sveiki " + textBox1.Text + ", uzspelesim so speli...";
                 label3.BackColor = Color.White;
-                label3.Text = "Uzmini manu iedomato skaitli no 1 lidz 10!";
-                Poga1.Text = "Iesniegt!";
-                Random Randoms = new Random();
-                PareizaisNumurs = Randoms.Next(1, 10);
+                label3.Text = "Tev bus jauzmin mans iedomatais skaitlis!";
+                Poga1.Text = "Ja, es esmu gatavs!";
+                
             }
             if (Reizes == 3)
             {
-                Minetajs(textBox1.Text);
+                Random Randoms = new Random();
+                PareizaisNumurs = Randoms.Next(1, 10);
+                label3.Text = "Uzmini manu skaitli no 1 lidz 10!";
+                Poga1.Text = "Sakt!";
+                textBox1.Text = String.Empty;
+              //  Minetajs(textBox1.Text);
             }
-            if (Reizes > 3)
+            if (Reizes > 3 && Reizes < 100)
             {
                 Minetajs(textBox1.Text);
+            }
+            if(Reizes == 100)
+            {
+                if (textBox1.Text.ToUpper() == "N")
+                {
+                    Reizes = 0;
+                    textBox1.BackColor = Color.Black;
+                    label2.BackColor = Color.Black;
+                    label3.BackColor = Color.Black;
+                    Poga1.Text = "Do you want to play a game? ";
+                }
+                if (textBox1.Text.ToUpper() == "Y")
+                {
+                    Reizes = 2;
+                }
             }
             
 
@@ -111,7 +130,7 @@ namespace WindowsFormsApp1
             {
                 label3.Text = "Ludzu, ievadi skaitli, nevis ko citu!";
             }
-            else if (Minejums != PareizaisNumurs)
+            if(Minejums != PareizaisNumurs)
             {
                 Minejums = Int32.Parse(ievade);
                 if (Minejums != PareizaisNumurs)
@@ -128,22 +147,23 @@ namespace WindowsFormsApp1
                     
                 }
             }
-            else
+            if(Minejums == PareizaisNumurs)
             {
                 label3.Text = "Tu uzmineji manu skaitli! Minesi velreiz? [Y or N]";
+                Reizes = 100;
             }
-            if (textBox1.Text.ToUpper() == "N")
-            {
-                Reizes = 0;
-                textBox1.BackColor = Color.Black;
-                label2.BackColor = Color.Black;
-                label3.BackColor = Color.Black;
-                Poga1.Text = "Do you want to play a game? ";
-            }
-            if (textBox1.Text.ToUpper() == "Y")
-            {
-                Reizes = 2;
-            }
+            //if (textBox1.Text.ToUpper() == "N")
+            //{
+            //    Reizes = 0;
+            //    textBox1.BackColor = Color.Black;
+            //    label2.BackColor = Color.Black;
+            //    label3.BackColor = Color.Black;
+            //    Poga1.Text = "Do you want to play a game? ";
+            //}
+            //if (textBox1.Text.ToUpper() == "Y")
+            //{
+            //    Reizes = 2;
+            //}
 
         }
     }
