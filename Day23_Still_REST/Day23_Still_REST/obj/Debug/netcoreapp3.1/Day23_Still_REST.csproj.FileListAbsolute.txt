@@ -1,0 +1,4 @@
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\bin\Debug\netcoreapp3.1\Day23_Still_REST.exe
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\obj\Debug\netcoreapp3.1\Day23_Still_REST.csprojAssemblyReference.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\obj\Debug\netcoreapp3.1\Day23_Still_REST.AssemblyInfoInputs.cache
+C:\Users\Arturs\Documents\GitHub\RCS\Day23_Still_REST\Day23_Still_REST\obj\Debug\netcoreapp3.1\Day23_Still_REST.AssemblyInfo.cs

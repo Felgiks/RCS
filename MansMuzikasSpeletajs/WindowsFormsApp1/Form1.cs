@@ -42,7 +42,7 @@ namespace WindowsFormsApp1
                 paths = ofd.FileNames;
                 if (ListBoxSongs.Items.Count > 0)
                 {
-                    for (int i = ListBoxSongs.Items.Count + 1; i < files.Length; i++)
+                    for (int i = ListBoxSongs.Items.Count; i < files.Length; i++)
                     {
                         ListBoxSongs.Items.Add(files[i]);
                     }

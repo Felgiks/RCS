@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hn3r/JjU1KoNfFCZu1K/uLKEbr4Sndr4qhge5cavPeMDrJnKzKPHXzpsh7Pwy2sHUzXWgpaGWmzJcm33cwQu7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Arturs\\Documents\\GitHub\\RCS\\Day23_Still_REST\\Day23_Still_REST\\Day23_Still_REST.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arturs\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
