@@ -55,6 +55,8 @@
             this.TopPanelis.Name = "TopPanelis";
             this.TopPanelis.Size = new System.Drawing.Size(741, 49);
             this.TopPanelis.TabIndex = 0;
+            this.TopPanelis.MouseDown += new System.Windows.Forms.MouseEventHandler(this.TopPanelis_MouseDown);
+            this.TopPanelis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.TopPanelis_MouseMove);
             // 
             // btnClose
             // 

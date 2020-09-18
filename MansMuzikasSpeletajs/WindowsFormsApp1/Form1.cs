@@ -20,20 +20,18 @@ namespace WindowsFormsApp1
         int Minejums;
         int PareizaisNumurs;
         bool Virziens = true;
+        Point lastPoint;
 
         public MusicPlayerApp()
         {
             InitializeComponent();
         }
-
         private void labelLOGO_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Brīva vieta jūsu reklamai - www.felgiks.com");
         }
-
         private void btnSelectSongs_Click(object sender, EventArgs e)
         {
-            //int ArrayIndex = ListBoxSongs.Items.Count;
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Multiselect = true;
             if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
@@ -44,7 +42,7 @@ namespace WindowsFormsApp1
                 {
                     for (int i = ListBoxSongs.Items.Count; i < (files.Length + ListBoxSongs.Items.Count); i++)
                     {
-                            ListBoxSongs.Items.Add(files[i+1]);
+                        ListBoxSongs.Items.Add(files[i]);
                     }
                 }
                 else
@@ -54,7 +52,6 @@ namespace WindowsFormsApp1
                         ListBoxSongs.Items.Add(files[i]);
                     }
                 }
-
             }
         }
 
@@ -103,7 +100,7 @@ namespace WindowsFormsApp1
             {
                 Minetajs(textBox1.Text);
             }
-            if(Reizes == 100)
+            if (Reizes == 100)
             {
                 if (textBox1.Text.ToUpper() == "N")
                 {
@@ -113,7 +110,7 @@ namespace WindowsFormsApp1
                     label3.BackColor = Color.Black;
                     Poga1.Text = "Do you want to play a game? ";
                 }
-                if (textBox1.Text.ToUpper() == "Y")
+                else if (textBox1.Text.ToUpper() == "Y")
                 {
                     Reizes = 2;
                 }
@@ -134,16 +131,16 @@ namespace WindowsFormsApp1
             {
                 label3.Text = "Ludzu, ievadi skaitli, nevis ko citu!";
             }
-            else if(Minejums != PareizaisNumurs)
+            else if (Minejums != PareizaisNumurs)
             {
                 Minejums = Int32.Parse(ievade);
                 if (Minejums != PareizaisNumurs)
                 {
-                    if(Virziens == true)
+                    if (Virziens == true)
                     {
                         label3.Text = "Skaitlis nepareizs, megini velreiz!";
                     }
-                    if(Virziens == false)
+                    if (Virziens == false)
                     {
                         label3.Text = "Skaitlis tomer nepareizs, megini velreiz!";
                     }
@@ -154,11 +151,28 @@ namespace WindowsFormsApp1
                     label3.Text = "Ludzu, ievadi skaitli, nevis ko citu!";
                 }
             }
-            else if(Minejums == PareizaisNumurs)
+            else if (Minejums == PareizaisNumurs)
             {
                 label3.Text = "Tu uzmineji manu skaitli! Minesi velreiz? [Y or N]";
                 Reizes = 99;
             }
+        }
+
+        private void TopPanelis_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+        private void TopPanelis_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new Point(e.X, e.Y);
+        }
+        private void TopPanelis_Paint(object sender, PaintEventArgs e)
+        {
+           // lastPoint = new Point(e.X, e.Y);
         }
     }
 }
